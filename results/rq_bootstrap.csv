@@ -1,0 +1,10 @@
+question,model,compare,diff,ci_low,ci_high,p_better,clear
+RQ1 features,LR,B vs A,-0.0097,-0.0141,-0.005,1.0,True
+RQ2 head-to-head,LR,C vs B,0.0002,-0.0004,0.0008,0.243,False
+RQ3 hybrid,LR,D vs C,-0.0002,-0.0014,0.001,0.645,False
+RQ1 features,RF,B vs A,-0.0072,-0.0109,-0.0034,1.0,True
+RQ2 head-to-head,RF,C vs B,0.0003,-0.0008,0.0014,0.282,False
+RQ3 hybrid,RF,D vs C,-0.0008,-0.0024,0.0008,0.828,False
+RQ1 features,XGB,B vs A,-0.0073,-0.0112,-0.0032,1.0,True
+RQ2 head-to-head,XGB,C vs B,0.0,-0.0,0.0,0.501,False
+RQ3 hybrid,XGB,D vs C,-0.0005,-0.0017,0.0006,0.787,False
